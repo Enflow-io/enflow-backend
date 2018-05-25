@@ -14,10 +14,10 @@
     "dialect": "postgres"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
+    "username": "enflow2",
+    "password": "YxKpvpecGkA9TbkC",
+    "database": "enflow",
+    "host": "enflow.cfkfm6jk821o.us-east-2.rds.amazonaws.com",
     "dialect": "postgres"
   }
 }

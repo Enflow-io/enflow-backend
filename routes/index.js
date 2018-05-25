@@ -37,7 +37,7 @@ router.post('/api/contacts', (req, res)=>{
 
 		// setup email data with unicode symbols
 		let mailOptions = {
-			from: '"Enflow New Request! 👻" <konstantin@enflow.io>', // sender address
+			from: '"Enflow New Request! 👻" <hi@enflow.io>', // sender address
 			to: 'konstantin@enflow.io, olga@enflow.io', // list of receivers
 			subject: 'A new request from site ✔', // Subject line
 			html: `Request info: <br />
